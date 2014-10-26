@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<SearchBar id="sbSearch" onReturn="buscar" />
+		<ActivityIndicator id="aiEspera" />
+		<TableView id="tvfilms" onClick="mostrarmas"/>
+	</Window>
+</Alloy>
