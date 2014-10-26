@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container" id="window">
+		<Button id="close" title="Cerrar" onClick="cerrar"/>
+		<ScrollView id="details">
+			<ImageView id="poster" />
+			<Label id="titulo"/>
+			<View id="info">
+				<Label id="year"/>
+				<Label id="runtime"/>
+			</View>
+			<Label id="sinopsis"/>
+			<View id="actors" />
+			
+		</ScrollView>
+	</Window>
+</Alloy>

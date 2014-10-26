@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup backgroundColor="white">
+		<Tab id="info" title="Info">
+			<Window/>			
+		</Tab>
+		<Tab id="listado" title="Listado">
+			<Window/>
+		</Tab>
+		<Tab id="tab3" title="tab3">
+			<Window/>
+		</Tab>
+	</TabGroup>
+</Alloy>

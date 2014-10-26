@@ -1,0 +1,15 @@
+<Alloy>
+	<Window  class="container">
+		<ImageView id="logo" />
+		<ScrollView id="descrip">
+			<Label id="descript"></Label>
+		</ScrollView>
+		<View id="padre_botonera">
+			<View id="botonera">
+				<Button class="buttom" id="llamar" onClick="llamar" title="Llamar"/>
+				<Button class="buttom" id="internet" onClick="internet" title="URL"/>
+				<Button class="buttom" id="correo" onClick="correo" title="Correo"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>

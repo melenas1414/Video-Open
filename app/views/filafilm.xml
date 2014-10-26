@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow class="container" id="fila">
+		<View id="info">
+			<ImageView id="poster"/>
+			<Label id="titulo"/>
+		</View>
+		<Button id="btIMDB" />
+	</TableViewRow>
+</Alloy>

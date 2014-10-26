@@ -1,0 +1,50 @@
+".container" : {
+	backgroundColor: 'white',
+	layout: 'vertical',
+},
+"#details" : {
+  modal: true,
+  backgroundColor: 'white',
+  layout: 'vertical',
+  left: 10,
+  right: 10
+},
+"#close" : {
+	borderColor: "white",
+	color: "black",
+	backgroundColor: "white",
+}
+
+"#titulo" : {
+	font: {fontSize: 20, fontWeight: 'bold'},
+	top: 10,
+	color: "black",
+}
+"#poster" : {
+	width: '60%',
+	borderRadius: 10
+}
+"#info" : {
+	width: '80%',
+	top: 10,
+	layout: 'horizontal',
+	height: Ti.UI.SIZE,
+	
+}
+"#year" : {
+	right: 10,
+	color: "black",
+	
+}
+"#runtime" : {
+	left: 10,
+	color: "black",
+}
+"#sinopsis" : {
+	top: 10,
+	color: "black",
+}
+"#actors" : {
+	layout: 'vertical',
+	height: Ti.UI.SIZE,
+}

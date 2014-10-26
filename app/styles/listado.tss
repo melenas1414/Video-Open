@@ -1,0 +1,29 @@
+
+".container" : {
+title: "Películas"
+},
+"#sbBuscar": {
+	top: 0,
+	height: 43,
+	barColor: "white",
+	showCancel: "true",
+	color: "black"
+},
+"#tvPeliculas": {
+	top: 43,
+	minRowHeight: 60,
+	maxRowHeight: 60,
+	height: Ti.UI.FILL
+},
+"#aiEspera": {
+	top: 43,
+	height: Ti.UI.FILL,
+	color: "black",
+	message: "Cargando películas. Espere, por favor."
+},
+"#aiEspera[platform=ios]": {
+	style: Titanium.UI.iPhone.ActivityIndicatorStyle.DARK
+},
+"#aiEspera[platform=android]": {
+	style: Titanium.UI.ActivityIndicatorStyle.DARK
+}

@@ -1,0 +1,33 @@
+".container" : {
+backgroundColor: "white"
+},
+"#btIMDB": {
+backgroundImage: '/images/globe-48.png',
+top: 15,
+right: 15,
+width: 30,
+height: 30
+},
+"#info": {
+layout: "horizontal",
+right: 60,
+width: Ti.UI.FILL,
+height: "100%"
+},
+"#poster": {
+left: 5,
+top: 5,
+width: 33,
+height: 50,
+borderRadius: 5
+},
+"#titulo": {
+verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+width: Ti.UI.FILL,
+height: 50,
+top: 5,
+left: 5,
+textAlign: 'left',
+font: {fontSize: 12},
+color: "black"
+},
